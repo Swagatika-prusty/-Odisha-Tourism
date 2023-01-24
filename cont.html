@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">  
+    <title>ODISHA TOURISM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="c-header">
+       <nav>
+            <a href="index.html"><img src="image/logo.jpg"</a>
+            <div class="nav-links">
+                
+                <ul  id="menuList">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="places.html">PLACES</a></li>
+                    <li><a href="cont.html">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <img src="image/menu.png" class="menu-icon" onclick="togglemenu()">
+        </nav>
+            <center>
+      <div class="c-box">
+        <h2>Contact</h2>
+          <form class="c-form" action="c-form.php" method="post">
+              <input type="text" name="name" placeholder="Enter your name">
+              <input type="text" name="email" placeholder="Enter your email">
+              <textarea rows="5" name="message" placeholder="Type your comment"></textarea><br>
+              <button type="submit" class="button">Submit</button> 
+              
+              
+              
+          </form>
+          
+    </div>
+                </center>
+                <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+                {
+                     menuList.style.maxHeight = "200px";
+                }
+            else
+                {
+                     menuList.style.maxHeight = "0px";
+                }
+        }
+    </script>
+    </section>
+    <section class="location"><center><br><h2>Location</h2><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28571.539967623547!2d89.7748153853288!3d26.473693932375863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e263c998e8e0ed%3A0x7c0355d0707f395a!2sPurbba%20Chakchaka%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1623838229232!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center>
+        </section>
+        <section class="cu">
+            <div class="row">
+            <div class="cc">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                    <h5>Centurion University</h5>
+                        <p>Jatni, Bhubaneswar</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                    <h5>8599058003</h5>
+                        <p>Monday to Friday, 11am to 5pm</p>
+                    </span>
+                </div> 
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                    <h5>rituparna282parija@gmail.com</h5>
+                        <p>Mail</p>
+                    </span>
+                </div>
+                </div>
+            </div>
+        </section>
+
+    <!--<section class="footer">
+        <h4>Our Socials</h4>
+        <p></p>
+        <div class="icons">
+            <i class="fa fa-facebook"><br>Facebook</a></i>
+            <i class="fa fa-youtube"><br>Youtube</a></i>
+            <i class="fa fa-instagram"><br>Instagram</a></i>
+            
+        </div>-->
+
+</body>
+</html>

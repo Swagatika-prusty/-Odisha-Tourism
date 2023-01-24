@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">  
+    <title>ODISHA TOURISM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="j-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.jpg"</a>
+            <div class="nav-links">
+                
+                <ul  id="menuList">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="places.html">PLACES</a></li>
+                    <li><a href="cont.html">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <img src="image/menu.png" class="menu-icon" onclick="togglemenu()">
+        </nav>
+            <center>
+      <div class="c-box">
+        <h2>Joining Form</h2>
+          <form class="c-form">
+              <input type="text" placeholder="Enter your name">
+              <input type="text" placeholder="Enter your email">
+              <textarea rows="5" placeholder="Enter Visiting Details"></textarea><br>
+              <button type="submit" class="button">Submit</button> 
+              
+              </center>
+              
+          </form>
+          
+    </div>  
+                 <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+                {
+                     menuList.style.maxHeight = "200px";
+                }
+            else
+                {
+                     menuList.style.maxHeight = "0px";
+                }
+        }
+    </script>
+    </section>
+ 
+    <!--<section class="footer">
+        <h4>Our Socials</h4>
+        <p></p>
+        <div class="icons">
+            <i class="fa fa-facebook"><br>Facebook</a></i>
+            <i class="fa fa-youtube"><br>Youtube</a></i>
+            <i class="fa fa-instagram"><br>Instagram</a></i>
+            
+        </div>-->
+
+</body>
+</html>
